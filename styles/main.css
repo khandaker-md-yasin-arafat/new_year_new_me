@@ -7,3 +7,46 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* header styles */
+header {
+    background-image: url(../images/banner/banner.png);
+    height: 809px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: scaleX(-1);
+}
+
+.header-details {
+    transform: scaleX(-1);
+    padding-top: 12%;
+    padding-left: 230px;
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+    width: 525px;
+    margin-bottom: 25px;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    width: 494px;
+    margin-bottom: 25px;
+}
+
+.header-btn {
+    background: #F15B22;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+}
+
