@@ -76,7 +76,8 @@ header {
     width: 50%;
 }
 
-.previous-years-description-title {
+.previous-years-description-title,
+.my-plans-title {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -92,6 +93,43 @@ header {
     margin-bottom: 12px;
 }
 
-.previous-years-description-list li i{
+.previous-years-description-list li i {
     color: #16D887;
 }
+
+/* my plans styles */
+.my-plans {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.my-plans-title {
+    text-align: center;
+}
+
+.my-plans-content {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.my-plans-content img {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 18px;
+}
+
+.my-single-plan h4 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: #151414;
+}
+
+.my-single-plan p {
+    font-weight: 500;
+    color: #737272;
+}
+
+/*  */
